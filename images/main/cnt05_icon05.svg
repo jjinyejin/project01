@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 135 135" style="enable-background:new 0 0 135 135;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E1C670;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{font-family:'MyriadPro-Bold';}
+	.st4{font-size:24px;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M99.47,93.18H40.83c-1.79,0-3.25-1.46-3.25-3.25V54.71c0-1.79,1.46-3.25,3.25-3.25h58.65
+			c1.79,0,3.25,1.46,3.25,3.25v35.21C102.73,91.72,101.26,93.18,99.47,93.18z"/>
+		<line class="st1" x1="102.73" y1="63.12" x2="37.57" y2="63.12"/>
+		<path class="st1" d="M92.03,85.41H34.99c-1.76,0-3.21-1.44-3.21-3.21V46.9c0-1.76,1.44-3.21,3.21-3.21h57.04
+			c1.76,0,3.21,1.44,3.21,3.21v35.3C95.24,83.97,93.8,85.41,92.03,85.41z"/>
+		<line class="st1" x1="95.24" y1="55.35" x2="31.78" y2="55.35"/>
+		<line class="st2" x1="75.49" y1="74.41" x2="87.51" y2="74.41"/>
+	</g>
+	<text transform="matrix(1 0 0 1 37.5735 77.2252)" class="st3 st4">M</text>
+</g>
+</svg>
