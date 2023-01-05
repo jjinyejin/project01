@@ -64,6 +64,15 @@ $(function(){
     /*메인 아이콘*/
     var i3=0;
     var cnt01Gr = $('.cnt01 .slideGr');
+    var cnt01Idx = $('.cnt.cnt01 .cnt01_top ul.indexM li');
+
+    cnt01Idx.click(function(){
+        var idx = $(this).index();
+
+        cnt01Gr.css('margin-left', (idx * -50) + '%');
+        cnt01Idx.removeClass('on');
+        $(this).addClass('on');
+    });
 
     function cnt01LeftM(){
         i3--;
@@ -71,13 +80,17 @@ $(function(){
             i3=0;
         }
             cnt01Gr.css('margin-left', (i3 * -50) + '%');
+            cnt01Idx.removeClass('on');
+            cnt01Idx.eq(i3).addClass('on');
         };
     function cnt01RightM(){
-                i3++;
-                if(i3>=4){
-                    i3=4;
-                }
-                cnt01Gr.css('margin-left', (i3 * -50) + '%');
+            i3++;
+            if(i3>=4){
+                i3=4;
+            }
+            cnt01Gr.css('margin-left', (i3 * -50) + '%');
+            cnt01Idx.removeClass('on');
+            cnt01Idx.eq(i3).addClass('on');
         };
 
     /*메인 슬라이드*/
