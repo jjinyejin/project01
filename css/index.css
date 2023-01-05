@@ -5,8 +5,8 @@
     font-style: normal;
 }
 
-html{font-size: 2.29226361032vw;}
-body{font-size: 0.57306590258vw; font-family: 'NanumSquare'; touch-action: pan-x;}
+html{font-size: 2.29226361032vw; overflow-x: hidden;}
+body{font-size: 0.57306590258vw; font-family: 'NanumSquare'; overflow-x: hidden;}
 
 
 /*공통*/
@@ -1249,14 +1249,14 @@ header .subNav .subNavBottom .menuWrap{
         z-index: 5;
         border-bottom: 0;
         padding: max(0.75rem, 30px) 0;
-        margin-right: -400px;
+        margin-right: -500px;
         transition: margin-right 0.5s;
     }
     .subNav .menuWrapM.show{
         margin-right: 0;
     }
     .subNav .menuWrapM.hide{
-        margin-right: -400px;
+        margin-right: -500px;
     }
 
     /*info*/
@@ -1423,7 +1423,7 @@ header .subNav .subNavBottom .menuWrap{
         display: none;
     }
     .mnBottom form .formSctMobile ul .place input{
-        font-size: max(3.3em, 33px);
+        font-size: max(3em, 30px);
         color:#000;
         border:none;
         text-align: center;
